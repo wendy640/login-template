@@ -1,9 +1,10 @@
 import "./App.scss";
+import AuthContainer from "./components/auth/AuthContainer";
 
 function App() {
   return (
     <div>
-      <h1>Hello World!!!</h1>
+   <AuthContainer/>
     </div>
   );
 }
